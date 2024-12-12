@@ -1,7 +1,7 @@
 set -e
 
 build() {
-    [ $dl ] && bash download.sh "$1"
+    # [ $dl ] && bash download.sh "$1"
     cd js
     bash make.sh "$1"
     cd ..
