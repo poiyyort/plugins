@@ -110,13 +110,13 @@ download_tuic5() {
   dl_and_chmod x86_64/libtuic.so "https://github.com/MatsuriDayo/tuic/releases/download/rel/tuic-client-"$VERSION"-x86_64-linux-android"
 }
 
-download_juicity() {
-  VERSION="v0.3.0"
-  mkdir_libs "app_juicity/libs"
+# download_juicity() {
+#   VERSION="v0.3.0"
+#   mkdir_libs "app_juicity/libs"
 
-  curl -Lso tmp.zip "https://github.com/juicity/juicity/releases/download/"$VERSION"/juicity-android-arm64.zip"
-  unzip_juicity arm64-v8a
-}
+#   curl -Lso tmp.zip "https://github.com/juicity/juicity/releases/download/"$VERSION"/juicity-android-arm64.zip"
+#   unzip_juicity arm64-v8a
+# }
 
 download_naive() {
   source ./get_version.sh naive

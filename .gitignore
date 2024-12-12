@@ -13,5 +13,6 @@ local.properties
 /app_*/build
 /app_*/libs
 /app_*/html
+!/app_juicity/libs
 
 /tmp
